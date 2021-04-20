@@ -1,7 +1,7 @@
 # Biblioteca 📕📗📘👓
 
 ### Introduccion:
-En el siguiente trabajo se muestra la implementación del patron estructural "Bridge", este patron fue aplicado para el caso de una biblioteca, la cual tiene items para prestar y hace prestamos. Los items para prestar pueden ser de 3 tipos: libros, comics y audiolibroa. Y los presatamos pueden ser dentro la biblioteca o prestamos externos.
+En el siguiente trabajo se muestra la implementación del patrón estructural "Bridge", este patrón fue aplicado para el caso de una biblioteca, la cual tiene ítems para prestar y hace préstamos. Los ítems para prestar pueden ser de 3 tipos: libros, comics y audiolibros. Y los préstamos pueden ser de tipo: dentro la biblioteca o prestamos externos.
 
 ### Desarrollo: 
 
