@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Library
 {
-    class LoanWithInLibrary : Loan
+    class LoanWithInLibrary : LoanItem
     {
-        public override void LoanItem()
+        public override void Loan()
         {
             LoanableItem.LoanItem(Borrower, BorrowDetails);
         }

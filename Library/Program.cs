@@ -10,18 +10,18 @@ namespace Library
             ILoanableItem audioBook = new AudioBook();
             ILoanableItem comic = new Comic();
 
-            Loan loanWithInLibrary = new LoanWithInLibrary();
+            LoanItem loanWithInLibrary = new LoanWithInLibrary();
             loanWithInLibrary.Borrower = "Carlos Soliz";
             loanWithInLibrary.BorrowDetails = "Date: 05/05/2021";
 
             loanWithInLibrary.LoanableItem = book;
-            loanWithInLibrary.LoanItem();
+            loanWithInLibrary.Loan();
 
             loanWithInLibrary.LoanableItem = audioBook;
-            loanWithInLibrary.LoanItem();
+            loanWithInLibrary.Loan();
 
             loanWithInLibrary.LoanableItem = comic;
-            loanWithInLibrary.LoanItem();
+            loanWithInLibrary.Loan();
 
             TakeOutLoan takeOutLoan = new TakeOutLoan();
             takeOutLoan.Borrower = "Sarah Fernandez";
@@ -30,7 +30,7 @@ namespace Library
             takeOutLoan.BorrowerAddress = "Av. America # 1354";
 
             takeOutLoan.LoanableItem = comic;
-            takeOutLoan.LoanItem();
+            takeOutLoan.Loan();
 
         }
     }
