@@ -26,7 +26,7 @@ namespace Library
             TakeOutLoan takeOutLoan = new TakeOutLoan();
             takeOutLoan.Borrower = "Sarah Fernandez";
             takeOutLoan.BorrowDetails = "Date: 05/05/2021";
-            takeOutLoan.ReturnDate = "07/04/2021";
+            takeOutLoan.ReturnDate = "07/06/2021";
             takeOutLoan.BorrowerAddress = "Av. America # 1354";
 
             takeOutLoan.LoanableItem = comic;

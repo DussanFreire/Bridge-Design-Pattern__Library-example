@@ -11,8 +11,14 @@ namespace Library
 
         public override void Loan()
         {
-            string fullDetails = string.Format("{0}\n  - Return Date:{1}\n  - Type of Loan: Take-out loan\n  - Borrower Address: {2}", BorrowDetails, ReturnDate, BorrowerAddress);
+            string fullDetails = GetFullDatailInfo();
             LoanableItem.LoanItem(Borrower, fullDetails);
+        }
+
+        private string GetFullDatailInfo()
+        {
+            string fullDetails = string.Format("{0}\n  - Return Date:{1}\n  - Type of Loan: Take-out loan\n  - Borrower Address: {2}", BorrowDetails, ReturnDate, BorrowerAddress);
+            return fullDetails;
         }
     }
 }
