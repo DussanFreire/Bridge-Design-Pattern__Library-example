@@ -7,3 +7,5 @@ Los préstamos que son para leer dentro de la biblioteca no requieren más infor
 ### Desarrollo: 
 Para eso se desarrolló un puente entre "ILoanItem" que es un ítem prestable (comic, libro o audiolibro) y "LoanItem" que hace referencia al tipo de préstamo de un ítem que puede ser dentro de la biblioteca o externo 
 
+### Diagrama de clases:<div style="text-align:center"><img src="https://github.com/DussanFreire/Library/blob/main/Images/d.%20clases%20loan.png" /></div>
+### Diagrama de Secuencia:<div style="text-align:center"><img src="https://github.com/DussanFreire/Library/blob/main/Images/sequence%20diagram%20bridge.png" /></div>
