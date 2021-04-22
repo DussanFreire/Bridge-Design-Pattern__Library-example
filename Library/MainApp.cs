@@ -2,7 +2,7 @@
 
 namespace Library
 {
-    class Program
+    class MainApp
     {
         static void Main(string[] args)
         {
