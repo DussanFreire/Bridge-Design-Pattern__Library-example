@@ -32,6 +32,7 @@ namespace Library
             takeOutLoan.LoanableItem = comic;
             takeOutLoan.Loan();
 
+            Console.ReadKey();
         }
     }
 }
