@@ -1,11 +1,12 @@
-# Biblioteca 📕📗📘👓
+# Library System Using the Bridge Pattern 📕📗📘👓
 
-### Introducción:
-En el siguiente trabajo se muestra la implementación del patrón estructural "Bridge", este patrón fue aplicado para el caso de una biblioteca, la cual tiene ítems para prestar y hace préstamos. Los ítems para prestar pueden ser de 3 tipos: libros, comics y audiolibros. Y los préstamos pueden ser de tipo: dentro la biblioteca o prestamos externos.
-Los préstamos que son para leer dentro de la biblioteca no requieren más información que el nombre de la persona, la cual se prestó el ítem, y una breve descripción del préstamo. En cambio para los prestamos externo, se requiere saber la dirección de la persona, la cual se prestó el ítem, nombre y también la fecha de retorno
+### Introduction:
+This project demonstrates the implementation of the structural design pattern “Bridge.” The pattern was applied to a library system that handles loanable items and their corresponding loan types. The items available for loan fall into three categories: books, comics, and audiobooks. There are also two types of loans: in-library loans and external loans.
 
-### Desarrollo: 
-Para eso se desarrolló un puente entre "ILoanItem" que es un ítem prestable (comic, libro o audiolibro) y "LoanItem" que hace referencia al tipo de préstamo de un ítem que puede ser dentro de la biblioteca o externo 
+For in-library loans, the system only requires the name of the person borrowing the item and a brief description of the loan. However, for external loans, additional information is required, such as the borrower’s address, name, and the return date of the item.
 
-### Diagrama de clases:<div style="text-align:center"><img src="https://github.com/DussanFreire/Library/blob/main/Images/Diagrama%20de%20clases%20loan.png" /></div>
-### Diagrama de Secuencia:<div style="text-align:center"><img src="https://github.com/DussanFreire/Library/blob/main/Images/sequence%20diagram%20bridge.png" /></div>
+### Implementation: 
+To achieve this, a bridge was developed between the ILoanItem interface, which represents loanable items (comic, book, or audiobook), and LoanItem, which defines the loan type (in-library or external).
+
+### Class Diagram:<div style="text-align:center"><img src="https://github.com/DussanFreire/Library/blob/main/Images/Diagrama%20de%20clases%20loan.png" /></div>
+### Sequence Diagram:<div style="text-align:center"><img src="https://github.com/DussanFreire/Library/blob/main/Images/sequence%20diagram%20bridge.png" /></div>
