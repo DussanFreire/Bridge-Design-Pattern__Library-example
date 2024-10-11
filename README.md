@@ -27,6 +27,9 @@ Example Use Cases
 To achieve this, a bridge was developed between the ILoanItem interface, which represents loanable items (comic, book, or audiobook), and LoanItem, which defines the loan type (in-library or external).
 
 ## Class Diagram:
+
 <div style="text-align:center"><img src="https://github.com/DussanFreire/Library/blob/main/Images/Diagrama%20de%20clases%20loan.png" /></div>
+
 ## Sequence Diagram:
+
 <div style="text-align:center"><img src="https://github.com/DussanFreire/Library/blob/main/Images/sequence%20diagram%20bridge.png" /></div>
